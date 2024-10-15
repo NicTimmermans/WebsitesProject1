@@ -8,6 +8,28 @@
     --moss: #00bf9c;
 }
 
+.color-ice{
+    color: var(--ice);
+}
+.color-pale{
+    color: var(--pale);
+}
+.color-sky{
+    color: var(--sky);
+}
+.color-aqua{
+    color: var(--aqua);
+}
+.color-navi{
+    color: var(--navi);
+}
+.color-lime{
+    color: var(--lime);
+}
+.color-moss{
+    color: var(--moss);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -56,3 +78,55 @@ header {
     background-color: var(--lime);
     color: var(--moss);
   }
+  
+  .start-intro{
+    display: flex;
+    justify-content: center;
+    height: 44vh;
+  }
+  .start-intro img{
+    margin: 25px 50px;
+    object-fit: cover;
+  }
+  .start-intro p{
+    align-self: center;
+    font-size: large;
+    width: 200px;
+    margin: 25px 50px;
+  }
+
+  .start-botton-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+  }
+  .start-button{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    margin: 0px 2.5%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: var(--aqua);
+    border-color: var(--navi);
+    color: var(--sky);
+  }
+  .start-button p{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .start-button i{
+    font-size: 90px;
+    margin: 25px 0px;
+  }
+
+  .start-button:hover{
+    background-color: var(--lime);
+    border-color: var(--moss);
+    color: var(--moss);
+
+  }
+
