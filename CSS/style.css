@@ -8,26 +8,47 @@
     --moss: #02aa69;
 }
 
-.color-ice{
-    color: var(--ice);
+.text-white{
+  color: white;
 }
-.color-pale{
-    color: var(--pale);
+.text-black{
+  color: black;
 }
-.color-sky{
-    color: var(--sky);
+.fs-sr{
+  font-size: smaller;
 }
-.color-aqua{
-    color: var(--aqua);
+.fs-s{
+  font-size: small;
 }
-.color-navi{
-    color: var(--navi);
+.fs-m{
+  font-size: medium;
 }
-.color-lime{
-    color: var(--lime);
+.fs-l{
+  font-size: large;
 }
-.color-moss{
-    color: var(--moss);
+.fs-lr{
+  font-size: larger;
+}
+.bg-ice{
+  background-color: var(--ice);
+}
+.bg-pale{
+  background-color: var(--pale);
+}
+.bg-sky{
+  background-color: var(--sky);
+}
+.bg-aqua{
+  background-color: var(--aqua);
+}
+.bg-navi{
+  background-color: var(--navi);
+}
+.bg-lime{
+  background-color: var(--lime);
+}
+.bg-moss{
+    background-color: var(--moss);
 }
 
 * {
@@ -210,3 +231,30 @@ header {
   .cv-career hr{
     color: var(--sky);
   }
+
+
+  /* interesses */
+
+  .interesses-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4vh 2vw;
+    min-height: 44vh;
+    gap: 2vh;
+  }
+  .interesses-container div{
+      min-width: 60%;
+      max-width: 60%;
+  }
+  .text-right{
+    text-align: end;
+  }
+
+  .interesses-container img{
+      max-height: 100%;
+      min-width: 20%;
+      object-fit: cover;
+  }
+
