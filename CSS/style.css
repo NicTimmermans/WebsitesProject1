@@ -233,7 +233,7 @@ header {
   }
 
 
-  /* interesses */
+  /* interesses page */
 
   .interesses-container{
     display: flex;
@@ -257,4 +257,33 @@ header {
       min-width: 20%;
       object-fit: cover;
   }
+
+  /* Ervaring page */
+
+main{
+    margin: 6vh 10vw;
+  }
+
+.ervaring-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2vh;
+  }
+.ervaring-container img{
+  max-width: 50%;
+  object-fit: contain;
+}
+.ervaring-container p{
+}
+.ervaring-images{
+  min-width: 30%;
+  margin: 18px 18px 18px 0px;
+}
+.ervaring-images img{
+  max-width: 100%;
+  width: 100%;
+  margin: 0.5vh 0vh;
+}
 
