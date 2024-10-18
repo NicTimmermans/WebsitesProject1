@@ -132,6 +132,8 @@ header {
   .start-button{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 250px;
     width: 250px;
     margin: 0px 2.5%;
