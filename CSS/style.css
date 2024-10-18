@@ -215,8 +215,8 @@ header {
     border-color: var(--moss);
     color: var(--moss);
   }
-
-
+  
+  
   .cv-career{
     background-color: var(--navi);
     flex-grow: 1;
@@ -231,10 +231,10 @@ header {
   .cv-career hr{
     color: var(--sky);
   }
-
-
+  
+  
   /* interesses page */
-
+  
   .interesses-container{
     display: flex;
     width: 100%;
@@ -245,45 +245,119 @@ header {
     gap: 2vh;
   }
   .interesses-container div{
-      min-width: 60%;
-      max-width: 60%;
+    min-width: 60%;
+    max-width: 60%;
   }
   .text-right{
     text-align: end;
   }
-
+  
   .interesses-container img{
-      max-height: 100%;
-      min-width: 20%;
-      object-fit: cover;
+    max-height: 100%;
+    min-width: 20%;
+    object-fit: cover;
   }
-
+  
   /* Ervaring page */
-
-main{
+  
+  main{
     margin: 6vh 10vw;
   }
-
-.ervaring-container{
+  
+  .ervaring-container{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: stretch;
     gap: 2vh;
   }
-.ervaring-container img{
-  max-width: 50%;
-  object-fit: contain;
-}
-.ervaring-container p{
-}
-.ervaring-images{
-  min-width: 30%;
-  margin: 18px 18px 18px 0px;
-}
-.ervaring-images img{
-  max-width: 100%;
-  width: 100%;
-  margin: 0.5vh 0vh;
-}
+  .ervaring-container img{
+    max-width: 50%;
+    object-fit: contain;
+  }
+  .ervaring-container p{
+  }
+  .ervaring-images{
+    min-width: 30%;
+    margin: 18px 18px 18px 0px;
+  }
+  .ervaring-images img{
+    max-width: 100%;
+    width: 100%;
+    margin: 0.5vh 0vh;
+  }
+  
+  /* Contact page */
+  
+  .contact-container{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    background-color: var(--navi);
+    margin: 20vh 10% auto auto;
+  }
+  .contact-profile{
+    width: 50%;
+    padding: 2vh 1vw;
+    text-align: center;
+    
+  }
+  .contact-profile h3{
+    margin-top: 5px;
+    
+  }
+  .contact-profile a{
+    color: white;
+    
+  }
+  .contact-form{
+    width: 50%;
+    padding: 2vh 1vw;
+  }
+  .contact-form form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5%;
+  }
+  .contact-form-pair{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .contact-form-textarea{
+    min-height: 20%;
+    max-height: 100%;
+  }
+  .contact-form-textarea textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+  
+  .contact-submit-button{
+    align-self: start;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: var(--pale);
+    border-color: var(--aqua);
+    color: var(--navi);
+    padding: 10px;
+    margin-top: 3px;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .contact-submit-button:hover{
+    background-color: var(--lime);
+    border-color: var(--moss);
+    color: var(--moss);
+  }
+  .contact-submit-button:active{
+    background-color: var(--lime);
+    border-color: var(--moss);
+    color: var(--moss);
+  }
+  
+  
